@@ -1,0 +1,11 @@
+framework module CustomArtefacts {
+  umbrella header "CustomArtefacts.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomArtefacts.Swift {
+    header "CustomArtefacts-Swift.h"
+    requires objc
+}

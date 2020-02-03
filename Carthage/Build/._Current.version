@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2f92f0774607b0f0b41bf7aabe9111afe4ae002c",
+  "iOS" : [
+    {
+      "name" : "CustomArtefacts",
+      "hash" : "bfe74d9fa0b83cc05be3743c05b4abc679df10145aeed17f89236c3c2c15dbe7",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}
