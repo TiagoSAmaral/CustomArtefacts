@@ -8,27 +8,27 @@
 
 import UIKit
 
-protocol SimpleButtonInterface {
+public protocol SimpleButtonInterface {
     func showBoard(with color: UIColor, and width: CGFloat)
     func setBackground(color: UIColor)
 }
 
-class SimpleButton: UIButton, SimpleButtonInterface {
+public class SimpleButton: UIButton, SimpleButtonInterface {
 
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.*/
     
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         // Drawing code
     }
     
-    func showBoard(with color: UIColor, and width: CGFloat) {
+    public func showBoard(with color: UIColor, and width: CGFloat) {
         layer.borderWidth = width
         layer.borderColor = color.cgColor
     }
     
-    func setBackground(color: UIColor) {
+    public func setBackground(color: UIColor) {
         backgroundColor = color
     }
 }
